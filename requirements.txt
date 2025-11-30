@@ -1,0 +1,22 @@
+# ---------- Core Scientific Libraries ----------
+numpy>=1.23          # Numerical computing
+scipy>=1.10          # Scientific utilities (FFT, filters, etc.)
+matplotlib>=3.7      # Plotting and visualization
+
+# ---------- Deep Learning ----------
+tensorflow>=2.12     # Neural network training and inference
+# Optional GPU version:
+# tensorflow-gpu>=2.12
+
+# ---------- Machine Learning Utilities ----------
+tqdm>=4.65           # Progress bar for loops (optional but useful)
+
+# ---------- Geometry & Layout Handling ----------
+ezdxf>=1.0           # DXF file generation (optional)
+
+# ---------- Image Processing ----------
+Pillow>=9.5          # Used for image handling (optional)
+
+# ---------- ADS Tools ----------
+# Note: adsMomWrapper is an external executable provided by Keysight ADS.
+# It is not installed via pip and does not belong in requirements.txt.
