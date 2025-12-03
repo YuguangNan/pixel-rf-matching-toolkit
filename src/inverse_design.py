@@ -57,7 +57,7 @@ FREQS = np.array([
 TARGET_FREQ_IDX = 14
 
 # GA hyperparameters (unchanged)
-POP_SIZE      = 30
+POP_SIZE      = 50
 N_GENERATIONS = 40
 CROSS_RATE    = 0.7
 MUT_RATE      = 0.02
